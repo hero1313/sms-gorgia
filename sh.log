@@ -1,0 +1,782 @@
+1231235995393002259953930022599539300
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+599539300
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+            <script>
+                const numbers = "599539300";
+                const text = "test sms";
+
+                $.ajax({
+                type: "get",
+                url : "http://81.95.160.47/mt/oneway?username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995" + numbers + "&text="+text,
+                success: function(response) {
+                    console.log(response)
+                }
+                })
+
+            </script>
+        59953930022
+            <script>
+                const numbers = "599539300";
+                const text = "test sms";
+
+                $.ajax({
+                type: "get",
+                url : "http://81.95.160.47/mt/oneway?username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995" + numbers + "&text="+text,
+                success: function(response) {
+                    console.log(response)
+                }
+                })
+
+            </script>
+        59953930022
+            <script>
+                const numbers = "599539300";
+                const text = "test sms";
+
+                $.ajax({
+                type: "get",
+                url : "http://81.95.160.47/mt/oneway?username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995" + numbers + "&text="+text,
+                success: function(response) {
+                    console.log(response)
+                }
+                })
+
+            </script>
+        59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\View\View could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\View\View could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\View\View could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\View\View could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\View\View could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\View\View could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022^C59953930022
+   Error 
+
+  Class "App\Console\Commands\Log" not found
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:36
+     32▕         foreach($employees as $employee){
+     33▕             echo($employee->number);
+     34▕ 
+     35▕         }
+  ➜  36▕         Log::info("UpdateInfo: started");
+     37▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     38▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     39▕         Log::info("UpdateInfo: finished");
+     40▕
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\Util.php:41
+      Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+59953930022
+   ErrorException 
+
+  file_get_contents(http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+     34▕             echo($employee->number);
+     35▕ 
+     36▕         }
+     37▕         Log::info("UpdateInfo: started");
+  ➜  38▕         $page = file_get_contents('http://81.95.160.47/mt/oneway?
+     39▕         // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test');
+     40▕         Log::info("UpdateInfo: finished");
+     41▕ 
+     42▕     }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\app\Console\Commands\BirthdayMessage.php:38
+      file_get_contents("http://81.95.160.47/mt/oneway?
+        // username=gorgia&password=Gor480&client_id=480&service_id=1&to=+995599539300&text=Test")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Container\BoundMethod.php:36
+      App\Console\Commands\BirthdayMessage::handle()
+599539300225995393002259953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
+59953930022
+   ErrorException 
+
+  Object of class Illuminate\Http\RedirectResponse could not be converted to int
+
+  at C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+    174▕ 
+    175▕         $method = method_exists($this, 'handle') ? 'handle' : '__invoke';
+    176▕ 
+    177▕         try {
+  ➜ 178▕             return (int) $this->laravel->call([$this, $method]);
+    179▕         } finally {
+    180▕             if ($this instanceof Isolatable && $this->option('isolated') !== false) {
+    181▕                 $this->commandIsolationMutex()->forget($this);
+    182▕             }
+
+  1   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php:178
+      Illuminate\Foundation\Bootstrap\HandleExceptions::Illuminate\Foundation\Bootstrap\{closure}("Object of class Illuminate\Http\RedirectResponse could not be converted to int", "C:\Users\n.kaulashvili\project-sms-gorgia\vendor\laravel\framework\src\Illuminate\Console\Command.php")
+
+  2   C:\Users\n.kaulashvili\project-sms-gorgia\vendor\symfony\console\Command\Command.php:308
+      Illuminate\Console\Command::execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Illuminate\Console\OutputStyle))
